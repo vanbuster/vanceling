@@ -47,8 +47,8 @@ pip install mlx-whisper PyPDF2 lark-oapi
 
 ```bash
 # 克隆仓库
-git clone https://github.com/vanbuster/vanceling.git
-cd vanceling
+git clone https://github.com/vanbuster/vanceling-projects.git
+cd vanceling-projects
 
 # 创建特性分支
 git checkout -b feature/your-feature-name
@@ -427,7 +427,7 @@ when_to_use: |
 
 ### 项目的路线图是什么？
 
-查看 [GitHub Projects](https://github.com/vanbuster/vanceling/projects) 了解计划的功能和改进。
+查看 [GitHub Projects](https://github.com/vanbuster/vanceling-projects/projects) 了解计划的功能和改进。
 
 ---
 

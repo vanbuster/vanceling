@@ -1,66 +1,30 @@
-# Vanceling 项目仓库
+# Vanceling Projects
 
-> van 的个人项目集合
+> van 的个人项目集合 —— 零构建、好玩、有用。
 
-## 📦 项目列表
+## 项目
 
-### 1. Knowledge Precipitation Skill
-知识沉淀系统 - 标准化分析产出、分类管理、索引更新、迭代记录的完整流程。
+### AI 音乐播客 v2
 
-**路径**：`skills/knowledge-precipitation/`
-
-**功能**：
-- 自动分类决策
-- 命名规范检查
-- INDEX.md 自动更新
-- 自检与迭代记录
-- 质量门禁（L1/L2/L3）
-
-**文档**：
-- `SKILL.md` - 主文档（触发条件、核心流程、质量门禁）
-- `references/category_rules.md` - 分类规则
-- `references/naming_convention.md` - 命名规范
-- `references/quality_gate.md` - 质量门禁
-- `references/interaction_templates.md` - 交互模板
-
----
-
-### 2. AI 音乐播客 v2
 水墨风格的 AI 音乐播客，使用原生 Web 技术构建。
 
-**路径**：`music-blog-v2/`
+- **路径**：`music-blog-v2/`
+- **技术栈**：原生 HTML/CSS/JS、ES Modules、Web Audio API、Canvas 2D
+- **运行**：浏览器打开 `music-blog-v2/index.html`
 
-**技术栈**：
-- 原生 Web（零构建依赖）
-- ES Modules
-- Web Audio API
-- Canvas 2D
+### 光之庭院
 
-**特点**：
-- 水墨风设计系统
-- 无框架依赖
-- 直接浏览器打开 `index.html` 即可运行
+视觉艺术体验小游戏。
 
----
+- **路径**：`light-garden/`
+- **运行**：浏览器打开 `light-garden/light_garden_visual_v5.html`
 
-### 3. 光之庭院小游戏
-视觉艺术体验项目。
+### Knowledge Precipitation Skill
 
-**路径**：`light-garden/`
+知识沉淀系统 —— 标准化分析产出、分类管理、索引更新、质量门禁。
 
-**文件**：
-- `light_garden_visual_v5.html` - 主程序
-- `paper_lantern_dawn.mp3` - 背景音乐
+- **路径**：`skills/knowledge-precipitation/`
 
-**运行方式**：
-- 用 Safari 或浏览器打开 `light_garden_visual_v5.html`
+## 相关仓库
 
----
-
-## 🔧 维护
-
-所有项目使用 Git 版本管理，定期更新和优化。
-
----
-
-**最后更新**：2026-05-25
+- [vanceling-skills](https://github.com/vanbuster/vanceling-skills) — 自建 Claude Code Skills
